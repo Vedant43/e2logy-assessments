@@ -4,7 +4,7 @@ import ItemList from './components/ItemList';
 
 function App() {
 
-// screenshots are added in main repo
+  // screenshots are added in main repo README.md
 
   return (
     <>

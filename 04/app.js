@@ -6,7 +6,7 @@ require('dotenv').config()
 const DB_HOST = process.env.DB_HOST
 const DB_PORT = process.env.DB_PORT
 
-// screenshots are added in main repo
+  // screenshots are added in main repo README.md
 
 app.get('/', (req, res) => {
     res.send(`Database is running on ${DB_HOST}:${DB_PORT}`)

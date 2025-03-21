@@ -3,7 +3,7 @@ import './App.css'
 import { DataFetcher } from './components/DataFetcher'
 
 function App() {
-  // screenshots are added in main repo
+  // screenshots are added in main repo README.md
 
   const [show, setShow] = useState(true)
 
