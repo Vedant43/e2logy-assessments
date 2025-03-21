@@ -2,6 +2,8 @@ const express = require('express')
 const requestLogger = require('./middleware/requestLogger.middleware')
 const app = express() 
 
+// screenshots are added in main repo
+
 app.use(requestLogger) 
 
 app.get('/', (req, res) => {

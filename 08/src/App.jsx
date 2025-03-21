@@ -1,6 +1,7 @@
 import { RegistrationForm } from './components/RegistrationForm'
 
 function App() {
+// screenshots are added in main repo
 
   return (
     <div 

@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+// screenshots are added in main repo
+
 app.get('/user/:id', (req, res) => {
     res.send(`User data for ID: ${req.params.id}`)
 })
